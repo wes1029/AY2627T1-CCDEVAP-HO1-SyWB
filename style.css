@@ -1,150 +1,65 @@
-/* Applies to everything */
+
 * {
     box-sizing: border-box;
 }
 
-/* Main page */
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f7fb;
-    color: #222;
-    line-height: 1.6;
-    max-width: 900px;
-    margin: auto;
-    padding: 30px;
+    background-color:lightgray;
+    color: black;
+    margin: 20px
 }
 
-/* Headings */
+
 h1 {
-    color: #173b67;
-    margin-top: 30px;
+    color: darkblue;
 }
 
 h2 {
-    color: #285f9e;
+    color: blue;
 }
 
-/* Sections */
+
 section {
     background-color: white;
-    padding: 25px;
-    margin: 20px 0;
-    border-radius: 12px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    padding: 15px;
+    margin-bottom: 20px;
 }
 
-/* Profile picture */
+
 img {
-    display: block;
-    width: 250px;
-    max-width: 100%;
-    border-radius: 12px;
-    margin-top: 15px;
+    width: 200px;
 }
 
-/* Links */
-a {
-    display: inline-block;
-    background-color: #285f9e;
-    color: white;
-    text-decoration: none;
-    padding: 10px 18px;
-    margin: 5px 0;
-    border-radius: 6px;
-    transition: 0.2s;
-}
 
-a:hover {
-    background-color: #173b67;
-    transform: translateY(-2px);
-}
 
-/* Interest table */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 15px;
+   
 }
 
 th,
 td {
-    border: 1px solid #ccc;
+    border: 1px solid black;
     padding: 12px;
-    text-align: left;
+ 
 }
 
 th {
-    background-color: #285f9e;
-    color: white;
+    background-color: lightblue;
 }
 
-tr:nth-child(even) {
-    background-color: #f2f5f9;
+a {
+    color: blue;
 }
 
-/* Interest list */
-li {
-    margin-bottom: 8px;
-}
 
-/* Audio and video */
-audio,
-video {
-    width: 100%;
-    max-width: 600px;
-    margin-top: 10px;
-}
 
-/* Form */
 form {
-    background-color: #f8f9fb;
-    padding: 20px;
-    border-radius: 8px;
+    background-color: white;
+    padding: 15px;
+
 }
 
-label {
-    font-weight: bold;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="date"] {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0 15px;
-    border: 1px solid #bbb;
-    border-radius: 5px;
-}
-
-input[type="radio"] {
-    margin: 10px 5px;
-}
-
-/* Submit button */
-input[type="submit"] {
-    background-color: #285f9e;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #173b67;
-}
-
-/* Mobile-friendly */
-@media (max-width: 600px) {
-    body {
-        padding: 15px;
-    }
-
-    section {
-        padding: 15px;
-    }
-
-    h1 {
-        font-size: 26px;
-    }
-}
